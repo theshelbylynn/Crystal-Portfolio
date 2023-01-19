@@ -1,0 +1,362 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header img{
+  margin: 2em;
+  width: 30%;
+  border-bottom: 1px dotted #000;
+}
+
+
+#logo {
+  margin-left: 5em;
+  width: 45%
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  margin: .5em;
+}
+
+
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #000;
+  height: 2.5em;
+  align-content: center;
+}
+
+#social {
+  margin: .5em;
+}
+
+#nav {
+  color: #fff;
+  font-size: 25px;
+  padding: 3em;
+}
+
+#link {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  margin: 1em;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: black;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: .5em;
+  margin: 1em;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+button:hover {
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+}
+
+.offcanvas-body {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+#link:hover {
+  color:rgb(0, 217, 255);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* Main Box Slider images */
+
+.slider {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.slider img {
+  width: 20%;
+  margin: .5em;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#slider {
+width: 20%;
+margin: 1em;
+}
+
+
+/* End Main Box Slider images */
+
+
+.info {
+  display: flex;
+  width: 95%;
+  height: auto;
+  border: 1px solid #000;
+  margin: 1em;
+}
+
+@media screen and (max-width: 500px) {
+  .info {
+    display: inline-flex;
+    flex-direction: column;
+    width: 95%;
+  }
+}
+
+/* Main Boxes */
+
+.box1 {
+  width : 35%;
+  height: auto;
+  margin: .5em;
+  padding: .5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .box1 {
+    width: 95%;
+  }
+}
+
+.box2 {
+  width : 35%;
+  height: auto;
+  margin: .5em;
+  padding: .5em;
+  border-left: 1px dotted #000;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .box2 {
+    width: 95%;
+    border: none;
+  }
+}
+
+.box3 {
+  width : 35%;
+  height: auto;
+  margin: .5em;
+  padding: .5em;
+  border-left: 1px dotted #000;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .box3 {
+    width: 95%;
+    border: none;
+  }
+}
+
+/* Main Boxes End */
+
+.about {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 95%;
+    border: none;
+  }
+}
+
+.photo {
+  justify-content: center;
+  width: 50%;    
+  height: auto;
+  margin-top: 2em;                                                       
+}
+.photo1 {
+  justify-content: center;
+  width: 30%;    
+  height: auto;
+  margin-top: 2em;                                                       
+}
+
+
+@media screen and (max-width: 800px) {
+  .photo {
+    flex-direction: column;
+    width: 30%;
+    border: none;
+  }
+}
+
+
+#signature {
+  width: 50%;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+}
+
+.content {
+  width: 90%;
+  height: auto;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.contenttwo {
+  width: 90%;
+  height: auto;
+  margin: 1.5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    flex-direction: column;
+    width: 95%;
+    border: none;
+    margin-left: 1.5em;
+  }
+}
+
+/* offCanvas Nav Bar */
+
+#container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  padding: .5em;
+  margin-top: .5em;
+}
+
+#test {
+  color:#fff;
+}
+
+#test:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+span.navbar-toggler-icon:hover {
+  background-color: #fff;
+}
+
+.btn-close:hover{
+  background-color: transparent;
+}
+
+/* offCanvas Nav Bar Ends Here */
+
+
+
+
+/* About ToF Page */
+
+
+
+
+
+/* End About ToF Page */
+
+
+
+/* Portfolio Pages */
+
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+#uno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+  width: 50%;
+}
+
+
+#pic {
+  width: 220px;
+  height: 220px;
+  margin: 1em;
+  padding: .5em;
+  border: 1px solid #000;
+  
+}
+
+
+/* End of Portfolio Pages */
