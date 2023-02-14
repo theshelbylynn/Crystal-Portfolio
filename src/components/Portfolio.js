@@ -31,11 +31,11 @@ function App() {
 				toggler={lightboxController.toggler}
 				sources={[
 					<div className="portfolio">
-                         <img src={one} alt="Pendant One" />
+                         <img src={one} div style={{ width: "100%", height: "100%" }} alt="Pendant One" />
                     </div>,
 
                     <div className="portfolio">
-                         <img src={two} alt="Pendant One" />
+                         <img src={two} div style={{ width: "100%", height: "100%" }} alt="Pendant One" />
                     </div>
 				]}
 				slide={lightboxController.slide}

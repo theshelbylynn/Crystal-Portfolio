@@ -21,7 +21,7 @@ function Bar() {
       {[false, ].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container id="container" fluid>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
 
       
             <i id="social" class="fa-brands fa-facebook"></i>
@@ -69,6 +69,8 @@ function Bar() {
                   </NavDropdown>
                   
                 </Nav>
+
+                <div className='search-input'>
                 <Form className="d-flex">
                   <Form.Control
                     type="search"
@@ -78,6 +80,8 @@ function Bar() {
                   />
                   <Button variant="outline-dark">Search</Button>
                 </Form>
+
+                </div>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

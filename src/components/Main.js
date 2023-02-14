@@ -27,9 +27,11 @@ function Main() {
             Lorem ipsum dolor sit amet, consectetur adipiscing 
             </p>
 
-            <button>Click Here</button>
-          
+            <a href="/Simple">
+            <button>See More</button>
+            </a>
         </div>
+
         <div className="box2">
             <i class="fa-solid fa-heart"></i>
             <h3>Beaded Chains</h3>
@@ -37,9 +39,12 @@ function Main() {
             Lorem ipsum dolor sit amet, consectetur adipiscing molestie iaculis.
             </p>
 
-            <button>Click Here</button>
+            <a href="/Beaded">
+            <button>See More</button>
+            </a>
 
         </div>
+
         <div className="box3">
             <i class="fa-regular fa-heart"></i>
             <h3>Fancy Pendants</h3>
@@ -47,7 +52,9 @@ function Main() {
             Lorem ipsum dolor sit amet, consectetur adipiscing 
             </p>
 
-            <button>Click Here</button>
+            <a href="/Fancy">
+            <button>See More</button>
+            </a>
         </div>
 
       
